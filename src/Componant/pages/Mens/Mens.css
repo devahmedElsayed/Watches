@@ -1,0 +1,85 @@
+    .men-category{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        margin: auto;
+        margin-top: 4%;
+    }
+    .categ1{
+       margin: 10px;
+       overflow: hidden;
+       background-color:rgb(220, 217, 217);
+       border-radius:10px ;
+       
+}
+
+.categ1 img{
+        width:100%;
+        height: 300px;
+}
+
+
+
+.cat_bode .know{
+        font-family: "Raleway", sans-serif;
+        color: black;
+    }
+.cat_bode{
+    background-color:rgb(220, 217, 217);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+   
+}
+.cat_bode p{
+    color: rgb(195, 166, 3);
+}
+.cat_bode .buy{
+    display: flex;
+    justify-content: space-between;
+}
+.cat_bode button{
+    background-color: rgb(30, 30, 30);
+    color: gold;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid gold;
+}
+
+.love{
+    font-size: 40px;
+    cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    .men-category{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        margin: auto;
+        margin-top: 4%;
+    }
+    }
+    .categ1:hover{
+        transform: scale(1.1);
+        overflow: hidden;
+        transition: transform 0.4s ease;
+    }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    .men-category{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        margin: auto;
+        margin-top: 4%;
+    }
+    }
+ 
+@media (max-width: 575.98px) { 
+    .men-category{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        margin: auto;
+        margin-top: 4%;
+    }
+ } 

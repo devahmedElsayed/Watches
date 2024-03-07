@@ -1,0 +1,40 @@
+.login{
+    background-color: rgb(0, 0, 0);
+    color: gold;
+    margin:auto;
+    margin-left: 50px;
+    width: 150px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 1px solid rgba(255, 217, 0, 0.366);
+
+}
+.login:hover{
+    background-color: rgba(255, 217, 0, 0.639);
+    color: white;
+    font-weight: 500;
+    border: 1px solid black;
+    font-family: "Raleway", sans-serif;
+
+
+}
+.nav-cart-cout{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: 26px;
+    background-color: gold;
+    color: black;
+    border-radius: 11px;
+    
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}

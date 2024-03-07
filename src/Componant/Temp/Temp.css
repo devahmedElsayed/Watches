@@ -1,0 +1,99 @@
+.cards{
+    display: flex;
+
+
+}
+.card1 ,.card2 ,.card3
+{
+    border: 1px solid black;
+    height: 350px;
+    width: 500px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    margin: 10px;
+ 
+}
+.card1{
+    background: url(../../Assets/1.jpg);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: 140px;
+
+}
+.card1 h2{
+    width: 60px;
+    padding: 50px 10px 0;
+    font-size: 40px;
+    line-height: 40px;
+
+
+}
+.card1 p{
+    width: 170px;
+    padding-left: 10px;
+}
+.card2{
+    background: url(../../Assets/2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100px;
+}
+.card2 h2{
+    width: 60px;
+    padding: 50px 10px 0;
+    font-size: 40px;
+    line-height: 40px;
+
+}
+.card2 p{
+    width: 210px;
+    padding-left: 10px;
+}
+.card3{
+    background: url(../../Assets/3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100px;
+
+}
+.card3 h2{
+    width: 60px;
+    padding: 50px 10px 0;
+    font-size: 40px;
+    line-height: 40px;
+
+
+}
+.card3 p{
+    width: 170px;
+    padding-left: 10px;
+}
+.sapn-temp{
+    font-size: 30px;
+    color:black;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+
+}
+.card1:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: transform 0.4s ease;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.card2:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: transform 0.4s ease;
+
+  
+}
+.card3:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: transform 0.4s ease;
+
+}
